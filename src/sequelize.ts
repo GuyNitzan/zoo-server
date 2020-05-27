@@ -6,7 +6,7 @@ export const sequelize = new Sequelize({
     dialect: 'postgres',
     username: 'postgres',
     password: '12345',
-    host: 'localhost',
+    host: '172.17.0.2',
     port: 5432,
     logging: false,
     operatorsAliases: false
